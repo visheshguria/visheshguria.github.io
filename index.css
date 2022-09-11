@@ -222,3 +222,139 @@ body{
     }
 
 }
+
+
+
+
+@media only screen and (min-width:990px) and (max-width:1800px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+    #image{
+        position: fixed;
+        /* top: 0; */
+        left: 0;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+   #body{
+  display: block;
+   }
+   #image{
+    width:50%;
+    /* height: 50%; */
+    margin: auto;
+    margin-bottom: 40px;
+    
+   }
+   #sec1{
+    width:100%;
+    margin: auto;
+    margin-left: -125px;
+    /* height: 1000%; */
+    margin-top: 15px;
+}
+#sec2{
+    width:100%;
+    margin: auto;
+    margin-left: -125px;
+    /* height: 1000%; */
+    margin-top: 15px;
+}
+#sec3{
+    width:100%;
+    margin: auto;
+    margin-left: -125px;
+    margin-top: 15px;
+}
+#sec4{
+    width:100%;
+    margin: auto;
+    margin-left: -125px;
+    margin-top: 15px;
+}
+#sec5{
+    width:100%;
+    margin: auto;
+    margin-left: -125px;
+    margin-top: 15px;
+}
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+    #body{
+        display: block;
+         }
+         #image{
+            width:80%;
+            /* height: 50%; */
+            margin: auto;
+            margin-bottom: 40px;
+            
+           }
+    #sec1{
+        width:150%;
+        margin-top: 5px;
+        margin: auto;
+        margin-left: -265px;
+        margin-top: 15px;
+    }
+    #sec2{
+        width:150%;
+        margin: auto;
+        margin-left: -265px;
+        margin-top: 15px;
+        /* height: 1000%; */
+        /* margin-top: 5px; */
+    }
+    #sec3{
+        width:150%;
+        margin: auto;
+        margin-left: -265px;
+        margin-top: 15px;
+        /* margin-top: 5px; */
+    }
+    #sec4{
+        width:150%;
+        margin: auto;
+        margin-left: -265px;
+        margin-top: 15px;
+        /* margin-top: 5px; */
+    }
+    #sec5{
+        width:150%;
+        margin: auto;
+        margin-left: -265px;
+        margin-top: 15px;
+        /* margin-top: 5px; */
+    }
+ 
+ }
