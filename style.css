@@ -425,11 +425,14 @@ background-size: 10px 10px;
   height: 60vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 25%;
+  /* justify-content: center; */
 }
 .skills .skills-content .left .text {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
+  /* border: solid red; */
 }
 .skills .skills-content .left p {
   text-align: justify;
@@ -892,11 +895,11 @@ rect.ContributionCalendar-day[data-level='4'] {
 
 .calendar {
     font-family: Helvetica, arial;
-    border: 1px solid #DDDDDD;
+    /* border: 1px solid #DDDDDD; */
     border-radius: 3px;
     min-height: 243px;
     text-align: center;
-    margin: 100 auto;
+    margin: 0% 18%;;
 }
 
 .calendar-graph text.wday,
@@ -960,7 +963,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 .contrib-number {
     font-weight: 300;
     line-height: 1.3em;
-    font-size: 24px;
+    /* font-size: 40%; */
     display: block;
     color: #333;
 }
