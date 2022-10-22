@@ -1052,3 +1052,16 @@ text.ContributionCalendar-label {
     fill: #ccc;
     font-size: 11px;
 }
+
+
+/* GithubStats */
+
+.github_stats{
+  width:90%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+}
+.github_stats img{
+  width: 100%;
+}
