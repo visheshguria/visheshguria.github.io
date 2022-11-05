@@ -1060,7 +1060,7 @@ text.ContributionCalendar-label {
 /* GithubStats */
 
 .github_stats{
-  width:90%;
+  width:55%;
   margin: auto;
   display: grid;
   justify-content: center;
