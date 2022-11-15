@@ -542,7 +542,7 @@ background-size: 10px 10px;
 .repo-div {
   display: flex;
   width: 35%;
-  border: 1px solid white;
+  border: solid #ba68c8;
   justify-content: center;
   align-items: center;
 }
@@ -550,12 +550,12 @@ background-size: 10px 10px;
 .demo-div {
   display: flex;
   width: 35%;
-  border: 1px solid white;
+  border: solid #ba68c8;
   justify-content: center;
   align-items: center;
 }
 .techStack {
-  color: purple;
+  color: purple;  
 }
 
 .demo-div a,
