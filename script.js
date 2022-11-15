@@ -72,6 +72,17 @@ $(document).ready(function () {
   });
 });
 
+
+
+// Resume Button Downloadable id is resume_button
+
+document.getElementById("resume_button").addEventListener("click", ()=>{
+
+  window.open("https://drive.google.com/file/d/1sZqTWfFo2LjEf4PRE58ivxCE-zCi2yvw/view?usp=sharing","_blank");
+
+})
+
+
 //Github Calendar flow
 
 
