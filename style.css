@@ -286,7 +286,7 @@ background-size: 10px 10px;
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: red;
+  color: #ba68c8;
   
 }
 .about .about-content .right p {
@@ -310,7 +310,7 @@ background-size: 10px 10px;
 }
 .about .title::after {
   background-image: url("");  
-  color: red;
+  color: #ba68c8;
 }
 
 /* services section styling */
